@@ -1,2 +1,20 @@
+# dependencies
 node_modules
 uploads/*
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+
+# local env files
+.env.development.local
+.env.test.local
+.env.production.local
+
+package-lock.json
